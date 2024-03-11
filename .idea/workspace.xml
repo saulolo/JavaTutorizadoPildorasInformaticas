@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_5_RaizScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_6_JOptionPane_CalculoPotencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_7_CondicionalIf_CalcularPesoIdeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Ejercicio 7. Condicional If">
+      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_10_BucleFor_NumeroFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_11_Arrays_MostrarArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_12_Arrays_MediaArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_13_Arrays_AlmacenarAleatorios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_8_BucleWhile_NumeroAleatorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_9_BucleFor_ValidarEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_3_ClaseMathYCasting_CakculoPotencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_3_ClaseMathYCasting_CalculoPotencia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +63,9 @@
       <recent name="Unit1_EstructurasBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejer_7_CondicionalIf_CalcularPesoIdeal">
-    <configuration name="Ejer_3_ClaseMathYCasting_CakculoPotencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_3_ClaseMathYCasting_CakculoPotencia" />
+  <component name="RunManager" selected="Application.Ejer_13_Arrays_AlmacenarAleatorios">
+    <configuration name="Ejer_10_BucleFor_NumeroFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_10_BucleFor_NumeroFactorial" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejer_4_ClaseMathYCasting_RedondeoNumerico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_4_ClaseMathYCasting_RedondeoNumerico" />
+    <configuration name="Ejer_11_Arrays_MostrarArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_11_Arrays_MostrarArray" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejer_5_RaizScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_5_RaizScanner" />
+    <configuration name="Ejer_12_Arrays_MediaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_12_Arrays_MediaArray" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejer_6_JOptionPane_CalculoPotencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_6_JOptionPane_CalculoPotencia" />
+    <configuration name="Ejer_13_Arrays_AlmacenarAleatorios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_13_Arrays_AlmacenarAleatorios" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejer_7_CondicionalIf_CalcularPesoIdeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_7_CondicionalIf_CalcularPesoIdeal" />
+    <configuration name="Ejer_9_BucleFor_ValidarEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_9_BucleFor_ValidarEmail" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejer_7_CondicionalIf_CalcularPesoIdeal" />
-        <item itemvalue="Application.Ejer_6_JOptionPane_CalculoPotencia" />
-        <item itemvalue="Application.Ejer_5_RaizScanner" />
-        <item itemvalue="Application.Ejer_4_ClaseMathYCasting_RedondeoNumerico" />
-        <item itemvalue="Application.Ejer_3_ClaseMathYCasting_CakculoPotencia" />
+        <item itemvalue="Application.Ejer_13_Arrays_AlmacenarAleatorios" />
+        <item itemvalue="Application.Ejer_12_Arrays_MediaArray" />
+        <item itemvalue="Application.Ejer_11_Arrays_MostrarArray" />
+        <item itemvalue="Application.Ejer_10_BucleFor_NumeroFactorial" />
+        <item itemvalue="Application.Ejer_9_BucleFor_ValidarEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -146,11 +149,24 @@
       <updated>1709778458979</updated>
       <workItem from="1709951578642" duration="114000" />
       <workItem from="1709951715517" duration="398000" />
-      <workItem from="1709952140745" duration="5782000" />
+      <workItem from="1709952140745" duration="21952000" />
     </task>
+    <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
+      <option name="closed" value="true" />
+      <created>1710033948313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710033948313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":sparkles: Ejercicio 7. Condicional If" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Ejercicio 7. Condicional If" />
   </component>
 </project>

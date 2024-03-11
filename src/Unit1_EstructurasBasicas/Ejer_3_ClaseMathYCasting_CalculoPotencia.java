@@ -4,7 +4,7 @@ package Unit1_EstructurasBasicas;
  *@author Saulolo
  */
 
-public class Ejer_3_ClaseMathYCasting_CakculoPotencia {
+public class Ejer_3_ClaseMathYCasting_CalculoPotencia {
 
     /**
      * Crea una clase nueva con el nombre de “Calculo_Potencia”. Declara dos variables en la misma línea con los nombres
