@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="Ejercicio 2 POO, Envio de paquetes">
-      <change afterPath="$PROJECT_DIR$/src/Unit2_POO/Ejer_1_CuentaCorreinte/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2_POO/Ejer_1_CuentaCorreinte/UsoCuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/Paquete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/Sucursal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/UsoSucursalYPaquetes.java" afterDir="false" />
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Ejercicio 7. Condicional If">
+      <change afterPath="$PROJECT_DIR$/src/Unit2_POO/Ejer_3_GettersYSetters/CuentaCorriente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/UsoSucursalYPaquetes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/UsoSucursalYPaquetes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +58,7 @@
       <recent name="Unit1_EstructurasBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsoSucursalYPaquetes">
-    <configuration name="Ejer_11_Arrays_MostrarArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_11_Arrays_MostrarArray" />
-      <module name="JavaTutorizadoPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit1_EstructurasBasicas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UsoCuentaCorreinte">
     <configuration name="Ejer_12_Arrays_MediaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit1_EstructurasBasicas.Ejer_12_Arrays_MediaArray" />
       <module name="JavaTutorizadoPI" />
@@ -114,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsoCuentaCorreinte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit2_POO.Ejer_3_GettersYSetters.UsoCuentaCorreinte" />
+      <module name="JavaTutorizadoPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit2_POO.Ejer_3_GettersYSetters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UsoSucursalYPaquetes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit2_POO.Ejer_2_EmpresaDeEnvios.UsoSucursalYPaquetes" />
       <module name="JavaTutorizadoPI" />
@@ -129,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsoCuentaCorreinte" />
         <item itemvalue="Application.UsoSucursalYPaquetes" />
         <item itemvalue="Application.UsoCuenta" />
         <item itemvalue="Application.Ejer_13_Arrays_AlmacenarAleatorios" />
         <item itemvalue="Application.Ejer_12_Arrays_MediaArray" />
-        <item itemvalue="Application.Ejer_11_Arrays_MostrarArray" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +145,9 @@
       <workItem from="1709951578642" duration="114000" />
       <workItem from="1709951715517" duration="398000" />
       <workItem from="1709952140745" duration="21952000" />
+      <workItem from="1710454272911" duration="259000" />
+      <workItem from="1710461097493" duration="1922000" />
+      <workItem from="1710523591659" duration="9930000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
       <option name="closed" value="true" />
