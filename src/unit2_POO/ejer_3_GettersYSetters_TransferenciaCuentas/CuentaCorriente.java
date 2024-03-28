@@ -1,4 +1,4 @@
-package Unit2_POO.Ejer_3_GettersYSetters;
+package unit2_POO.ejer_3_GettersYSetters_TransferenciaCuentas;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package Unit2_POO.Ejer_2_EmpresaDeEnvios;
+package unit2_POO.ejer_2_EmpresaDeEnvios;
 
 import java.util.Scanner;
 

@@ -1,6 +1,4 @@
-package Unit1_EstructurasBasicas;
-
-import java.util.Scanner;
+package unit1_EstructurasBasicas;
 
 /**
  * @author Saulolo

@@ -1,4 +1,4 @@
-package Unit2_POO.Ejer_1_CuentaCorreinte;
+package unit2_POO.ejer_1_CuentaCorreinte;
 
 import java.util.Random;
 

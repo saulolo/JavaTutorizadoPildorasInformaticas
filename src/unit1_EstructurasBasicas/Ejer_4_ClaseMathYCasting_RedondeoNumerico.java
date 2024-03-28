@@ -1,4 +1,4 @@
-package Unit1_EstructurasBasicas;
+package unit1_EstructurasBasicas;
 
 /**
  *@author Saulolo
