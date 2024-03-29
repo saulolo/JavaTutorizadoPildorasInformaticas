@@ -4,40 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Ejercicio 3. POO, Transferencia de cuentas.">
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_4_GettersYSetters_Colegio/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_4_GettersYSetters_Colegio/Colegio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_4_GettersYSetters_Colegio/UsoColegio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_5_GettersCastingConstructor_Contrasenias/CreaPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_5_GettersCastingConstructor_Contrasenias/UsoContrasenia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/EmpleadoAsalariado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/EmpleadoComision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/UsoEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_7_Interfaces_Vehiculos/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_7_Interfaces_Vehiculos/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_7_Interfaces_Vehiculos/Vehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_7_Interfaces_Vehiculos/VehiculosPrueba.java" afterDir="false" />
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos.">
+      <change afterPath="$PROJECT_DIR$/src/unit3_InterfacesGraficas/VentanaBasica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit3_InterfacesGraficas/VentanaBasicaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_10_BucleFor_NumeroFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_10_BucleFor_NumeroFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_11_Arrays_MostrarArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_11_Arrays_MostrarArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_12_Arrays_MediaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_12_Arrays_MediaArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_13_Arrays_AlmacenarAleatorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_13_Arrays_AlmacenarAleatorios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_1_DeclaracionDeVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_1_DeclaracionDeVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_2_ClaseMathYCasting_RaizCuadrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_2_ClaseMathYCasting_RaizCuadrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_3_ClaseMathYCasting_CalculoPotencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_3_ClaseMathYCasting_CalculoPotencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_4_ClaseMathYCasting_RedondeoNumerico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_4_ClaseMathYCasting_RedondeoNumerico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_5_RaizScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_5_RaizScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_6_JOptionPane_CalculoPotencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_6_JOptionPane_CalculoPotencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_7_CondicionalIf_CalcularPesoIdeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_7_CondicionalIf_CalcularPesoIdeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_8_BucleWhile_NumeroAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_8_BucleWhile_NumeroAleatorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1_EstructurasBasicas/Ejer_9_BucleFor_ValidarEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_9_BucleFor_ValidarEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit2_POO/Ejer_1_CuentaCorreinte/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_1_CuentaCorreinte/CuentaCorriente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit2_POO/Ejer_1_CuentaCorreinte/UsoCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_1_CuentaCorreinte/UsoCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/Paquete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_2_EmpresaDeEnvios/Paquete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/Sucursal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_2_EmpresaDeEnvios/Sucursal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit2_POO/Ejer_2_EmpresaDeEnvios/UsoSucursalYPaquetes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_2_EmpresaDeEnvios/UsoSucursalYPaquetes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit2_POO/Ejer_3_GettersYSetters/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_3_GettersYSetters_TransferenciaCuentas/CuentaCorriente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,28 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SECHEVERRI/Documents/Proyectos/JavaTutorizadoPildorasInformaticas&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/SECHEVERRI/Documents/Proyectos/JavaTutorizadoPildorasInformaticas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Unit1_EstructurasBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VehiculosPrueba">
+  <component name="RunManager" selected="Application.VentanaBasicaMain">
     <configuration name="UsoColegio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit2_POO.UsoColegio" />
       <module name="JavaTutorizadoPI" />
@@ -124,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="unit2_POO.ejer_5_GettersCastingConstructor_Contrasenias.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsoCuentaCorreinte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit2_POO.UsoCuentaCorreinte" />
-      <module name="JavaTutorizadoPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unit2_POO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VentanaBasicaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit3_InterfacesGraficas.VentanaBasicaMain" />
+      <module name="JavaTutorizadoPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit3_InterfacesGraficas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VentanaBasicaMain" />
         <item itemvalue="Application.VehiculosPrueba" />
         <item itemvalue="Application.UsoEmpleado" />
         <item itemvalue="Application.UsoContrasenia" />
         <item itemvalue="Application.UsoColegio" />
-        <item itemvalue="Application.UsoCuentaCorreinte" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +174,9 @@
       <workItem from="1711263656345" duration="668000" />
       <workItem from="1711328394087" duration="17804000" />
       <workItem from="1711581392682" duration="10722000" />
+      <workItem from="1711651236678" duration="792000" />
+      <workItem from="1711658170638" duration="1859000" />
+      <workItem from="1711674171255" duration="6409000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
       <option name="closed" value="true" />
@@ -221,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710533596027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos.">
+      <option name="closed" value="true" />
+      <created>1711651320755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711651320755</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +213,7 @@
     <MESSAGE value="Ejercicio 1 POO, cuenta correinte" />
     <MESSAGE value="Ejercicio 2 POO, Envio de paquetes" />
     <MESSAGE value=":sparkles: Ejercicio 3. POO, Transferencia de cuentas." />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Ejercicio 3. POO, Transferencia de cuentas." />
+    <MESSAGE value=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos." />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos." />
   </component>
 </project>
