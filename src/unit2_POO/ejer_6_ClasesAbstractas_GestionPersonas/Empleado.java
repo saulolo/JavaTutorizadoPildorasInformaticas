@@ -97,6 +97,11 @@ public abstract class Empleado {
     }
 
     //Métodos
+
+    /**
+     * Imprime los detalles de una persona, incluyendo su DNI, nombre completo y año de ingreso.
+     * Los detalles se imprimen en la consola en un formato estructurado.
+     */
     public void imprimir() {
         System.out.println("DNI: " + getDNI() +
                 "\nNombre y Apellido: " + getNombre() + " " + getApellidos() +
@@ -105,6 +110,11 @@ public abstract class Empleado {
 
 
     //Método abstracto
+    /**
+     * Devuelve el salario de la persona.
+     *
+     * @return El salario de la persona.
+     */
     abstract public double getSalario();
 
 }

@@ -4,10 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos.">
-      <change afterPath="$PROJECT_DIR$/src/unit3_InterfacesGraficas/VentanaBasica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit3_InterfacesGraficas/VentanaBasicaMain.java" afterDir="false" />
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Interfaces graficas. Ejercicio 1.">
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Buffers/FicheroBuffersMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Buffers/LecturaFicherosBuffers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Buffers/ficheroALeerBuffers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/EjercicioStreams/EscrituraFicheroMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/EjercicioStreams/MarcoTextos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/EjercicioStreams/ficheroALeer2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/StreamByte/LeyendoArchivoStreamsBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/StreamByte/StreamsByteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Streams/EscrituraFicherosExternos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Streams/FicherosExternosMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Streams/LecturaFicherosExternos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit11_Serializacion/serializacionDeObjetos/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit11_Serializacion/serializacionDeObjetos/Recuperando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit11_Serializacion/serializacionDeObjetos/Serializado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit12_AccesoFicherosExternos/AccesoRutas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit12_AccesoFicherosExternos/CreandoDirectorios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit12_AccesoFicherosExternos/EjercicioFicherosExternos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/ArrayListeIterator/ArrayListeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/EjercicioArrayList/EjercicioArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/EjercicioArrayList/EjercicioArrayListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/EjercicioArrayList/EjercicioArrayListSolucion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit14_ProgramacionConcurrenteThreads/EjercicioThreads_BancoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit14_ProgramacionConcurrenteThreads/UsoThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit4_Eventos/ejer_1_EventosMouse_MensajeDeTexto/EjerciciosEventos1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit4_Eventos/ejer_1_EventosMouse_MensajeDeTexto/EjerciciosEventos2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit5_Layouts/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit6_ComponentesSwing/componentesSwing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit7_EjercicioComponentesSwingI/EjercicioSwing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit7_EjercicioComponentesSwingI/ProcesadorDeTextos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit7_EjercicioComponentesSwingI/Procesador_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioII_ExcepcionesCustom/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioII_ExcepcionesCustom/CustomExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioI_Excepciones/ExcepcionesIValidarNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioI_Excepciones/ValidarNumeroMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/EntradaDatosFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/EntradaDatosIOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/EntradaDatosRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/ExcepcionesPersonalizadas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/VariasExcepciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit9_Debugger/AleatoriosDebugger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_11_Arrays_MostrarArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_11_Arrays_MostrarArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/UsoEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/UsoEmpleado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,34 +94,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/SECHEVERRI/Documents/Proyectos/JavaTutorizadoPildorasInformaticas",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SECHEVERRI/Documents/Proyectos/JavaTutorizadoPildorasInformaticas/src/unit10_StreamsDeDatos/Buffers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit10_StreamsDeDatos\Buffers" />
+      <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit10_StreamsDeDatos\EjercicioStreams" />
+      <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit6_EjercicioComponentesSwingI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit10_StreamsDeDatos\Streams" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unit13_ProgramacionGenerica.EjercicioArrayList" />
+      <recent name="unit12_AccesoFicherosExternos" />
+      <recent name="unit10_StreamsDeDatos.Buffers" />
+      <recent name="unit8_Excepciones.EntradaDatos" />
       <recent name="Unit1_EstructurasBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VentanaBasicaMain">
-    <configuration name="UsoColegio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit2_POO.UsoColegio" />
+  <component name="RunManager" selected="Application.EjercicioThreads_BancoMain">
+    <configuration name="ArrayListeIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit13_ProgramacionGenerica.ArrayListeIterator.ArrayListeIterator" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit2_POO.*" />
+          <option name="PATTERN" value="unit13_ProgramacionGenerica.ArrayListeIterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoContrasenia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit2_POO.ejer_5_GettersCastingConstructor_Contrasenias.UsoContrasenia" />
+    <configuration name="EjercicioArrayListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit13_ProgramacionGenerica.EjercicioArrayList.EjercicioArrayListMain" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit2_POO.ejer_5_GettersCastingConstructor_Contrasenias.*" />
+          <option name="PATTERN" value="unit13_ProgramacionGenerica.EjercicioArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit2_POO.ejer_6_ClasesAbstractas_GestionPersonas.UsoEmpleado" />
+    <configuration name="EjercicioArrayListSolucion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit13_ProgramacionGenerica.EjercicioArrayList.EjercicioArrayListSolucion2" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit2_POO.ejer_6_ClasesAbstractas_GestionPersonas.*" />
+          <option name="PATTERN" value="unit13_ProgramacionGenerica.EjercicioArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehiculosPrueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit2_POO.ejer_7_Interfaces_Vehiculos.VehiculosPrueba" />
+    <configuration name="EjercicioThreads_BancoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit14_ProgramacionConcurrenteThreads.EjercicioThreads_BancoMain" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit2_POO.ejer_7_Interfaces_Vehiculos.*" />
+          <option name="PATTERN" value="unit14_ProgramacionConcurrenteThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VentanaBasicaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit3_InterfacesGraficas.VentanaBasicaMain" />
+    <configuration name="UsoThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit14_ProgramacionConcurrenteThreads.UsoThreads" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit3_InterfacesGraficas.*" />
+          <option name="PATTERN" value="unit14_ProgramacionConcurrenteThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VentanaBasicaMain" />
-        <item itemvalue="Application.VehiculosPrueba" />
-        <item itemvalue="Application.UsoEmpleado" />
-        <item itemvalue="Application.UsoContrasenia" />
-        <item itemvalue="Application.UsoColegio" />
+        <item itemvalue="Application.EjercicioThreads_BancoMain" />
+        <item itemvalue="Application.UsoThreads" />
+        <item itemvalue="Application.EjercicioArrayListSolucion2" />
+        <item itemvalue="Application.EjercicioArrayListMain" />
+        <item itemvalue="Application.ArrayListeIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +230,25 @@
       <workItem from="1711651236678" duration="792000" />
       <workItem from="1711658170638" duration="1859000" />
       <workItem from="1711674171255" duration="6409000" />
+      <workItem from="1711696734556" duration="410000" />
+      <workItem from="1711738105543" duration="232000" />
+      <workItem from="1711741231769" duration="11920000" />
+      <workItem from="1711917867335" duration="7142000" />
+      <workItem from="1712026518027" duration="516000" />
+      <workItem from="1712084949652" duration="8553000" />
+      <workItem from="1712101848333" duration="8929000" />
+      <workItem from="1712182804215" duration="15445000" />
+      <workItem from="1712253155160" duration="8032000" />
+      <workItem from="1712357053098" duration="9278000" />
+      <workItem from="1712623783941" duration="2054000" />
+      <workItem from="1712671699807" duration="30600000" />
+      <workItem from="1712848665719" duration="10985000" />
+      <workItem from="1712894557011" duration="2231000" />
+      <workItem from="1712930787845" duration="12384000" />
+      <workItem from="1712992712265" duration="4972000" />
+      <workItem from="1713107533612" duration="30452000" />
+      <workItem from="1713275446359" duration="9808000" />
+      <workItem from="1713482609524" duration="9535000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
       <option name="closed" value="true" />
@@ -202,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711651320755</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":sparkles: Interfaces graficas. Ejercicio 1.">
+      <option name="closed" value="true" />
+      <created>1711697110875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711697110875</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +294,11 @@
     <MESSAGE value="Ejercicio 2 POO, Envio de paquetes" />
     <MESSAGE value=":sparkles: Ejercicio 3. POO, Transferencia de cuentas." />
     <MESSAGE value=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos." />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos." />
+    <MESSAGE value=":sparkles: Interfaces graficas. Ejercicio 1." />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Interfaces graficas. Ejercicio 1." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

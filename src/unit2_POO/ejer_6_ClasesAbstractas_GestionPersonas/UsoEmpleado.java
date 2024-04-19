@@ -3,6 +3,7 @@ package unit2_POO.ejer_6_ClasesAbstractas_GestionPersonas;
 public class UsoEmpleado {
     public static void main(String[] args) {
 
+
         Empleado empleados[] = new Empleado[4];
         EmpleadoAsalariado empsal1 = new EmpleadoAsalariado("6546546Z", "Antonio" , "López", 2014, 1125);
         empleados[0] = empsal1;
@@ -59,6 +60,7 @@ public class UsoEmpleado {
         for (int i = 0; i < empleado.length; i++) {
             empleado[i].imprimir();
         }
+
     }
 
 }

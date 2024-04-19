@@ -16,6 +16,8 @@ public class Ejer_11_Arrays_MostrarArray {
 
     public static void main(String[] args) {
 
+
+
         Scanner input = new Scanner(System.in);
 
         int positivos = 0;
