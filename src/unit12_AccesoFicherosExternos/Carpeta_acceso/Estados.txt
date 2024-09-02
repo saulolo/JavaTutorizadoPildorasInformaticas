@@ -1,0 +1,6 @@
+Activo
+Atrasado
+En riesgo
+en Pausa
+Cerrado
+Pendiente

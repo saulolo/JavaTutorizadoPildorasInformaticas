@@ -4,51 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Interfaces graficas. Ejercicio 1.">
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Buffers/FicheroBuffersMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Buffers/LecturaFicherosBuffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Buffers/ficheroALeerBuffers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/EjercicioStreams/EscrituraFicheroMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/EjercicioStreams/MarcoTextos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/EjercicioStreams/ficheroALeer2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/StreamByte/LeyendoArchivoStreamsBytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/StreamByte/StreamsByteMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Streams/EscrituraFicherosExternos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Streams/FicherosExternosMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit10_StreamsDeDatos/Streams/LecturaFicherosExternos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit11_Serializacion/serializacionDeObjetos/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit11_Serializacion/serializacionDeObjetos/Recuperando.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit11_Serializacion/serializacionDeObjetos/Serializado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit12_AccesoFicherosExternos/AccesoRutas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit12_AccesoFicherosExternos/CreandoDirectorios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit12_AccesoFicherosExternos/EjercicioFicherosExternos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/ArrayListeIterator/ArrayListeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/EjercicioArrayList/EjercicioArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/EjercicioArrayList/EjercicioArrayListMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit13_ProgramacionGenerica/EjercicioArrayList/EjercicioArrayListSolucion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit14_ProgramacionConcurrenteThreads/EjercicioThreads_BancoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit14_ProgramacionConcurrenteThreads/UsoThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit4_Eventos/ejer_1_EventosMouse_MensajeDeTexto/EjerciciosEventos1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit4_Eventos/ejer_1_EventosMouse_MensajeDeTexto/EjerciciosEventos2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit5_Layouts/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit6_ComponentesSwing/componentesSwing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit7_EjercicioComponentesSwingI/EjercicioSwing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit7_EjercicioComponentesSwingI/ProcesadorDeTextos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit7_EjercicioComponentesSwingI/Procesador_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioII_ExcepcionesCustom/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioII_ExcepcionesCustom/CustomExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioI_Excepciones/ExcepcionesIValidarNumero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EjercicioI_Excepciones/ValidarNumeroMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/EntradaDatosFinally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/EntradaDatosIOException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/EntradaDatosRuntimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/ExcepcionesPersonalizadas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit8_Excepciones/EntradaDatos/VariasExcepciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit9_Debugger/AleatoriosDebugger.java" afterDir="false" />
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment=":sparkles: Threads  Ejercicio Banco.">
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/EqualsYHashCode_libros/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/EqualsYHashCode_libros/LibroHasCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/EqualsYHashCode_libros/LibroMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/LinkedList_Personas/EjercicioLinkedList_Paises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/LinkedList_Personas/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/SetsEIterator_Clientes/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/SetsEIterator_Clientes/ClienteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/TreeSet_OrdenarNoNatural/ColeccionTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/TreeSet_OrdenarNoNatural/ProductosTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/TreeSet_OrdenarNoNatural/ProductosTreeSetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/TreeSet_OrdenarPersonas/ColeccionTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/TreeSet_OrdenarPersonas/ProductosTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit15_Colecciones/TreeSet_OrdenarPersonas/ProductosTreeSetMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_11_Arrays_MostrarArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1_EstructurasBasicas/Ejer_11_Arrays_MostrarArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/UsoEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2_POO/ejer_6_ClasesAbstractas_GestionPersonas/UsoEmpleado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +42,12 @@
     &quot;assignee&quot;: &quot;saulolo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="fc9ca0e7-e30e-4d28-9c5b-5e89efa340d5" />
-        <option name="url" value="https://github.com/saulolo/JavaTutorizadoPildorasInformaticas" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/saulolo/JavaTutorizadoPildorasInformaticas&quot;,
+    &quot;accountId&quot;: &quot;fc9ca0e7-e30e-4d28-9c5b-5e89efa340d5&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -94,24 +62,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SECHEVERRI/Documents/Proyectos/JavaTutorizadoPildorasInformaticas/src/unit10_StreamsDeDatos/Buffers&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ColeccionTreeSet.executor": "Run",
+    "Application.EjercicioLinkedList_Paises.executor": "Run",
+    "Application.Persona.executor": "Run",
+    "Application.ProductosTreeSetMain.executor": "Run",
+    "Application.unit15_Colecciones.SetsEIterator_Clientes.ClienteMain.executor": "Run",
+    "Application.unit15_Colecciones.Sets_Clientes.ClienteMain.executor": "Run",
+    "Application.unit15_Colecciones.TreeSet_OrdenarNoNatural.ProductosTreeSetMain.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SECHEVERRI/Documents/Proyectos/JavaTutorizadoPildorasInformaticas/src/unit15_Colecciones.TreeSet_OrdenarNoNatural",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit15_Colecciones.TreeSet_OrdenarNoNatural" />
       <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit10_StreamsDeDatos\Buffers" />
       <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit10_StreamsDeDatos\EjercicioStreams" />
       <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit6_EjercicioComponentesSwingI" />
@@ -127,13 +105,13 @@
       <recent name="Unit1_EstructurasBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjercicioThreads_BancoMain">
-    <configuration name="ArrayListeIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit13_ProgramacionGenerica.ArrayListeIterator.ArrayListeIterator" />
+  <component name="RunManager" selected="Application.unit15_Colecciones.TreeSet_OrdenarNoNatural.ProductosTreeSetMain">
+    <configuration name="ColeccionTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit15_Colecciones.TreeSet_OrdenarPersonas.ColeccionTreeSet" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit13_ProgramacionGenerica.ArrayListeIterator.*" />
+          <option name="PATTERN" value="unit15_Colecciones.TreeSet_OrdenarPersonas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioArrayListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit13_ProgramacionGenerica.EjercicioArrayList.EjercicioArrayListMain" />
+    <configuration name="EjercicioLinkedList_Paises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit15_Colecciones.LinkedList_Personas.EjercicioLinkedList_Paises" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit13_ProgramacionGenerica.EjercicioArrayList.*" />
+          <option name="PATTERN" value="unit15_Colecciones.LinkedList_Personas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioArrayListSolucion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit13_ProgramacionGenerica.EjercicioArrayList.EjercicioArrayListSolucion2" />
+    <configuration name="Persona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit15_Colecciones.LinkedList_Personas.Persona" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit13_ProgramacionGenerica.EjercicioArrayList.*" />
+          <option name="PATTERN" value="unit15_Colecciones.LinkedList_Personas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioThreads_BancoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit14_ProgramacionConcurrenteThreads.EjercicioThreads_BancoMain" />
+    <configuration name="ProductosTreeSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit15_Colecciones.TreeSet_OrdenarPersonas.ProductosTreeSetMain" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit14_ProgramacionConcurrenteThreads.*" />
+          <option name="PATTERN" value="unit15_Colecciones.TreeSet_OrdenarPersonas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit14_ProgramacionConcurrenteThreads.UsoThreads" />
+    <configuration name="unit15_Colecciones.TreeSet_OrdenarNoNatural.ProductosTreeSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit15_Colecciones.TreeSet_OrdenarNoNatural.ProductosTreeSetMain" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit14_ProgramacionConcurrenteThreads.*" />
+          <option name="PATTERN" value="unit15_Colecciones.TreeSet_OrdenarNoNatural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,13 +173,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjercicioThreads_BancoMain" />
-        <item itemvalue="Application.UsoThreads" />
-        <item itemvalue="Application.EjercicioArrayListSolucion2" />
-        <item itemvalue="Application.EjercicioArrayListMain" />
-        <item itemvalue="Application.ArrayListeIterator" />
+        <item itemvalue="Application.unit15_Colecciones.TreeSet_OrdenarNoNatural.ProductosTreeSetMain" />
+        <item itemvalue="Application.ProductosTreeSetMain" />
+        <item itemvalue="Application.ColeccionTreeSet" />
+        <item itemvalue="Application.EjercicioLinkedList_Paises" />
+        <item itemvalue="Application.Persona" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -248,7 +234,21 @@
       <workItem from="1712992712265" duration="4972000" />
       <workItem from="1713107533612" duration="30452000" />
       <workItem from="1713275446359" duration="9808000" />
-      <workItem from="1713482609524" duration="9535000" />
+      <workItem from="1713482609524" duration="9606000" />
+      <workItem from="1713533309923" duration="114000" />
+      <workItem from="1713662402914" duration="3434000" />
+      <workItem from="1713928163520" duration="1251000" />
+      <workItem from="1713981011406" duration="15000" />
+      <workItem from="1714012187191" duration="1270000" />
+      <workItem from="1716757592773" duration="1122000" />
+      <workItem from="1717720315009" duration="837000" />
+      <workItem from="1717971410728" duration="3420000" />
+      <workItem from="1718558855129" duration="2342000" />
+      <workItem from="1718928748556" duration="570000" />
+      <workItem from="1718929346446" duration="2997000" />
+      <workItem from="1719020893725" duration="2117000" />
+      <workItem from="1719197057098" duration="216000" />
+      <workItem from="1725237709406" duration="2137000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
       <option name="closed" value="true" />
@@ -282,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711697110875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":sparkles: Threads  Ejercicio Banco.">
+      <option name="closed" value="true" />
+      <created>1713509740626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713509740626</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +303,8 @@
     <MESSAGE value=":sparkles: Ejercicio 3. POO, Transferencia de cuentas." />
     <MESSAGE value=":sparkles: Ejercicio 7. POO, Interfaces Vehiculos." />
     <MESSAGE value=":sparkles: Interfaces graficas. Ejercicio 1." />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Interfaces graficas. Ejercicio 1." />
+    <MESSAGE value=":sparkles: Threads  Ejercicio Banco." />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Threads  Ejercicio Banco." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
