@@ -3,15 +3,13 @@ package unit17_EjercicioChatSockets;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.Socket;
 
 /**
  * Cliente que envia la petición
  */
-public class ClienteChat {
-
+public class ClienteChat implements Serializable {
 
     public static void main(String[] args) {
 
@@ -85,6 +83,13 @@ class LaminaClienteChat extends JPanel {
                     datos.setNick(nick.getText());
                     datos.setIp(ip.getText());
                     datos.setTextoCliente(campo1.getText());
+
+                    ObjectOutputStream flujoSalidaPaquete = new ObjectOutputStream(miSocket.getOutputStream());
+                    flujoSalidaPaquete.writeObject(datos);
+                    miSocket.close();
+
+
+
 
                 } catch (IOException ex) {
                     ex.printStackTrace();

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="✨ Sockets&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Servidor: Recibe mensajes en el puerto 9999 y los muestra en un área de texto.&#10;- Comunicación: Uso de `Socket` y `ServerSocket` para enviar y recibir datos.">
-      <change afterPath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ClienteChat.java" afterDir="false" />
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="✨ Creación clase CLienteChat&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Creació de clase para empaquetar el envio del mensaje, la ip y el nick del cliente">
+      <change afterPath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ServidorChat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ClienteChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ClienteChat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,7 @@
     &quot;Application.unit15_Colecciones.SetsEIterator_Clientes.ClienteMain.executor&quot;: &quot;Run&quot;,
     &quot;Application.unit15_Colecciones.Sets_Clientes.ClienteMain.executor&quot;: &quot;Run&quot;,
     &quot;Application.unit15_Colecciones.TreeSet_OrdenarNoNatural.ProductosTreeSetMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.unit17_EjercicioChatSockets.ClienteChat (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.unit17_EjercicioChatSockets.ClienteChat.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -104,20 +106,7 @@
       <recent name="Unit1_EstructurasBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.unit17_EjercicioChatSockets.ClienteChat">
-    <configuration name="ClienteChat (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit16_Sockets.ClienteChat" />
-      <module name="JavaTutorizadoPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unit16_Sockets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ServidorChat">
     <configuration name="ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unit16_Sockets.ClienteChat" />
       <module name="JavaTutorizadoPI" />
@@ -144,12 +133,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServidorChat (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit16_Sockets.ServidorChat" />
+    <configuration name="ServidorChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit17_EjercicioChatSockets.ServidorChat" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit16_Sockets.*" />
+          <option name="PATTERN" value="unit17_EjercicioChatSockets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unit17_EjercicioChatSockets.ClienteChat (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit17_EjercicioChatSockets.ClienteChat" />
+      <module name="JavaTutorizadoPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit17_EjercicioChatSockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServidorChat" />
         <item itemvalue="Application.unit17_EjercicioChatSockets.ClienteChat" />
+        <item itemvalue="Application.unit17_EjercicioChatSockets.ClienteChat (1)" />
         <item itemvalue="Application.ServidorChat (1)" />
         <item itemvalue="Application.ClienteChat" />
-        <item itemvalue="Application.ServidorChat (2)" />
-        <item itemvalue="Application.ClienteChat (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +260,10 @@
       <workItem from="1733874026207" duration="2256000" />
       <workItem from="1735233274884" duration="4000" />
       <workItem from="1742512213100" duration="5760000" />
-      <workItem from="1742859165274" duration="3752000" />
+      <workItem from="1742859165274" duration="3802000" />
+      <workItem from="1743209708720" duration="1990000" />
+      <workItem from="1743604425630" duration="6000" />
+      <workItem from="1744066400611" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
       <option name="closed" value="true" />
@@ -324,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742519778506</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="✨ Creación clase CLienteChat&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Creació de clase para empaquetar el envio del mensaje, la ip y el nick del cliente">
+      <option name="closed" value="true" />
+      <created>1742864397482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742864397482</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +354,8 @@
     <MESSAGE value=":sparkles: Threads Comparable" />
     <MESSAGE value="✨ Uso de Maps" />
     <MESSAGE value="✨ Sockets&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Servidor: Recibe mensajes en el puerto 9999 y los muestra en un área de texto.&#10;- Comunicación: Uso de `Socket` y `ServerSocket` para enviar y recibir datos." />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ Sockets&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Servidor: Recibe mensajes en el puerto 9999 y los muestra en un área de texto.&#10;- Comunicación: Uso de `Socket` y `ServerSocket` para enviar y recibir datos." />
+    <MESSAGE value="✨ Creación clase CLienteChat&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Creació de clase para empaquetar el envio del mensaje, la ip y el nick del cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ Creación clase CLienteChat&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Creació de clase para empaquetar el envio del mensaje, la ip y el nick del cliente" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
