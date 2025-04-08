@@ -34,7 +34,7 @@ class MarcoServidorChat extends JFrame implements Runnable{
 
             String nick;
             String ip;
-            String message;
+            String mensaje;
 
             LaminaClienteChat.EnvioPaqueteDatos paqueteRecibido;
 
@@ -46,8 +46,8 @@ class MarcoServidorChat extends JFrame implements Runnable{
                 paqueteRecibido = (LaminaClienteChat.EnvioPaqueteDatos) flujoDatosEntrada.readObject();
                 nick = paqueteRecibido.getNick();
                 ip = paqueteRecibido.getIp();
-                message = paqueteRecibido.getTextoCliente();
-                areatexto.append("\n" + "nick" + " : " +  nick + " Mensaje: "+  message + "IP: " + ip);
+                mensaje = paqueteRecibido.getTextoCliente();
+                areatexto.append("\n" + "nick" + " : " +  nick + " Mensaje: "+  mensaje + "IP: " + ip);
                 miSocket.close();
             }
 

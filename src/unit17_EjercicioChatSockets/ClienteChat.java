@@ -99,7 +99,7 @@ class LaminaClienteChat extends JPanel {
         add(miboton);
     }
 
-    class EnvioPaqueteDatos{
+    class EnvioPaqueteDatos implements Serializable{
 
         private String nick;
         private String ip;
