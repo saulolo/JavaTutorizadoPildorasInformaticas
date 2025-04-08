@@ -5,6 +5,7 @@ import java.awt.*;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -48,6 +49,10 @@ class MarcoServidorChat extends JFrame implements Runnable{
                 ip = paqueteRecibido.getIp();
                 mensaje = paqueteRecibido.getTextoCliente();
                 areatexto.append("\n" + "nick" + " : " +  nick + " Mensaje: "+  mensaje + "IP: " + ip);
+                Socket reenvioDestinatario = new Socket(ip, 9090);
+                ObjectOutputStream paqueteReenvio = new ObjectOutputStream(reenvioDestinatario.getOutputStream());
+                paqueteReenvio.writeObject(paqueteRecibido);
+                reenvioDestinatario.close();
                 miSocket.close();
             }
 

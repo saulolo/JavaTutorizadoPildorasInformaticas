@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
+import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
@@ -45,21 +46,30 @@ class MarcoClienteChat extends JFrame{
 
 
 //Panel
-class LaminaClienteChat extends JPanel {
+class LaminaClienteChat extends JPanel implements Runnable{
 
     private JTextField campo1;
-    private JTextField nick;
-    private JTextField ip;
+    private JLabel nick;
+    private JComboBox ip;
     private JButton miboton;
     private JTextArea areaChat;
 
 
     public LaminaClienteChat(){
-        nick = new JTextField(5);
+
+        Thread miHilo = new Thread(this);
+        miHilo.start();
+
+        nick = new JLabel();
+        nick.setText(JOptionPane.showInputDialog("Nick:"));
         add(nick);
-        JLabel cliente=new JLabel("-- CHAT -");
+        JLabel cliente=new JLabel("-- Online -> -");
         add(cliente);
-        ip = new JTextField(8);
+        ip = new JComboBox();
+        ip.addItem("Saul");
+        ip.addItem("Alejandra");
+        ip.addItem("Felipe");
+        ip.addItem("Leidy");
         add(ip);
         areaChat = new JTextArea(12, 20);
         add(areaChat);
@@ -81,15 +91,12 @@ class LaminaClienteChat extends JPanel {
 
                     EnvioPaqueteDatos datos = new EnvioPaqueteDatos();
                     datos.setNick(nick.getText());
-                    datos.setIp(ip.getText());
+                    datos.setIp(ip.getSelectedItem().toString());
                     datos.setTextoCliente(campo1.getText());
 
                     ObjectOutputStream flujoSalidaPaquete = new ObjectOutputStream(miSocket.getOutputStream());
                     flujoSalidaPaquete.writeObject(datos);
                     miSocket.close();
-
-
-
 
                 } catch (IOException ex) {
                     ex.printStackTrace();
@@ -97,6 +104,25 @@ class LaminaClienteChat extends JPanel {
             }
         });
         add(miboton);
+    }
+
+    @Override
+    public void run() {
+        try {
+            ServerSocket escuchaCliente = new ServerSocket(9090);
+            Socket cliente;
+            EnvioPaqueteDatos paqueteRecibido;
+            while (true) {
+                cliente = escuchaCliente.accept();
+                ObjectInputStream flujoEntrada = new ObjectInputStream(cliente.getInputStream());
+                paqueteRecibido = (EnvioPaqueteDatos)flujoEntrada.readObject();
+                areaChat.append("\n" +  paqueteRecibido.getNick() + ": "+  paqueteRecibido.getTextoCliente());
+                cliente.close();
+            }
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     class EnvioPaqueteDatos implements Serializable{
