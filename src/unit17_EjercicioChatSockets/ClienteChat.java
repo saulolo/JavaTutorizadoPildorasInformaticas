@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 
 /**
  * Cliente que envia la petición
@@ -41,6 +42,20 @@ class MarcoClienteChat extends JFrame{
         LaminaClienteChat milamina=new LaminaClienteChat();
         add(milamina);
         setVisible(true);
+        estableceConexionServidor();
+    }
+
+    void estableceConexionServidor() {
+        try {
+            Socket miSocket = new Socket("100.96.12.32", 9999);
+            LaminaClienteChat.EnvioPaqueteDatos datos = new LaminaClienteChat.EnvioPaqueteDatos();
+            datos.setTextoCliente("Online");
+            ObjectOutputStream flujoSalidaPaquete = new ObjectOutputStream(miSocket.getOutputStream());
+            flujoSalidaPaquete.writeObject(datos);
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
 
@@ -66,10 +81,6 @@ class LaminaClienteChat extends JPanel implements Runnable{
         JLabel cliente=new JLabel("-- Online -> -");
         add(cliente);
         ip = new JComboBox();
-        ip.addItem("Saul");
-        ip.addItem("Alejandra");
-        ip.addItem("Felipe");
-        ip.addItem("Leidy");
         add(ip);
         areaChat = new JTextArea(12, 20);
         add(areaChat);
@@ -116,7 +127,17 @@ class LaminaClienteChat extends JPanel implements Runnable{
                 cliente = escuchaCliente.accept();
                 ObjectInputStream flujoEntrada = new ObjectInputStream(cliente.getInputStream());
                 paqueteRecibido = (EnvioPaqueteDatos)flujoEntrada.readObject();
-                areaChat.append("\n" +  paqueteRecibido.getNick() + ": "+  paqueteRecibido.getTextoCliente());
+                if (paqueteRecibido.getTextoCliente().equals(" online")) {
+                    //areaChat.append("\n" + paqueteRecibido.getIPs());
+                    ArrayList<String> IpsJCombo = new ArrayList<>();
+                    IpsJCombo = paqueteRecibido.getIPs();
+                    ip.removeAllItems();
+                    for (String ips : IpsJCombo) {
+                        ip.addItem(ips);
+                    }
+                } else {
+                    areaChat.append("\n" +  paqueteRecibido.getNick() + ": "+  paqueteRecibido.getTextoCliente());
+                }
                 cliente.close();
             }
 
@@ -125,12 +146,20 @@ class LaminaClienteChat extends JPanel implements Runnable{
         }
     }
 
-    class EnvioPaqueteDatos implements Serializable{
+    static class EnvioPaqueteDatos implements Serializable{
 
         private String nick;
         private String ip;
         private String textoCliente;
+        private ArrayList<String> IPs;
 
+        public ArrayList<String> getIPs() {
+            return IPs;
+        }
+
+        public void setIPs(ArrayList<String> IPs) {
+            this.IPs = IPs;
+        }
 
         public String getNick() {
             return nick;

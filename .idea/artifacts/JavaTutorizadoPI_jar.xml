@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaTutorizadoPI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaTutorizadoPI_jar</output-path>
+    <root id="archive" name="JavaTutorizadoPI.jar">
+      <element id="module-output" name="JavaTutorizadoPI" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Driver Postgresql/postgresql-42.7.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: unit19_JakartaEE_3_AplicacionUniveral.AplicacionUniversalMai
+ n
+

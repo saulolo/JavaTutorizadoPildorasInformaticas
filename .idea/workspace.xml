@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaTutorizadoPI:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="✨ Envio de paquete desde el servidor">
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="✨ Mejorando el chat&#10;- ✨Conseguimos que el servidor detecte los clientes que se conectan con él. &#10;- ✨Creamos un socket de comunicación al abrir el cliente.">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaTutorizadoPI_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit18_JDBC/CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit18_JDBC/ConectaGestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit18_JDBC/JDBCExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit18_JDBC/PreparetStamentCRUDExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit18_JDBC/ejercicioBDconInterfaz/Aplicacion_Consulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/AplicationMVC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/MVC_Teoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/controller/ControladorBoton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/controller/ControladorCargaMenus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/model/CargaMenus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/model/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/model/EjecutaConsultas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/model/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_1_MVC/view/MarcoMVC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_2_MetadatosProceAlma/ActualizaProductos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_2_MetadatosProceAlma/ConsultaProductos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_2_MetadatosProceAlma/Metadatos/MostrarMetadatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_2_MetadatosProceAlma/transacciones/InsertaClientesPedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_3_AplicacionUniveral/AplicacionUniversalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_3_AplicacionUniveral/interfazGrafica/MarcoBBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit19_JakartaEE_3_AplicacionUniveral/interfazGrafica/PanelBBDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTutorizadoPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTutorizadoPI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ClienteChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ClienteChat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ServidorChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit17_EjercicioChatSockets/ServidorChat.java" afterDir="false" />
     </list>
@@ -37,6 +67,10 @@
     &quot;accountId&quot;: &quot;765d0a46-811f-43fa-bf49-44029b4d16fc&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,12 +87,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ActualizaProductos.executor": "Run",
+    "Application.ActualizaTabla.executor": "Run",
+    "Application.AplicacionUniversalMain.executor": "Run",
+    "Application.Aplicacion_Consulta.executor": "Run",
+    "Application.AplicationMVC.executor": "Run",
     "Application.ClienteChat (1).executor": "Run",
     "Application.ClienteChat (2).executor": "Run",
     "Application.ClienteChat.executor": "Run",
     "Application.ColeccionTreeSet.executor": "Run",
+    "Application.ConectaGestion.executor": "Run",
+    "Application.ConsultaProductos.executor": "Run",
     "Application.EjercicioLinkedList_Paises.executor": "Run",
+    "Application.InsertaClientesPedidos.executor": "Run",
+    "Application.MostrarMetadatos.executor": "Run",
     "Application.Persona.executor": "Run",
+    "Application.PreparetStamentCRUDExample.executor": "Run",
     "Application.ProductosTreeSetMain.executor": "Run",
     "Application.ServidorChat (1).executor": "Run",
     "Application.ServidorChat (2).executor": "Run",
@@ -78,12 +122,15 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SaulHernandoEcheverr/Documents/Proyectos/Ejercicios La Tecnologia Avanza logic-and-java-practice/logic-and-java-practice",
+    "last_opened_file_path": "C:/Users/SaulHernandoEcheverr/Documents/Proyectos/JavaTutorizadoPildorasInformaticas/Driver Postgresql/postgresql-42.7.5.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
@@ -100,20 +147,20 @@
       <recent name="C:\Users\SECHEVERRI\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit10_StreamsDeDatos\Streams" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unit19_JakartaEE_MetadatosProceAlma" />
+      <recent name="unit18_JDBC" />
       <recent name="unit13_ProgramacionGenerica.EjercicioArrayList" />
       <recent name="unit12_AccesoFicherosExternos" />
       <recent name="unit10_StreamsDeDatos.Buffers" />
-      <recent name="unit8_Excepciones.EntradaDatos" />
-      <recent name="Unit1_EstructurasBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.unit17_EjercicioChatSockets.ClienteChat (2)">
-    <configuration name="ServidorChat (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit16_Sockets.ServidorChat" />
+  <component name="RunManager" selected="Application.AplicacionUniversalMain">
+    <configuration name="ActualizaProductos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit19_JakartaEE_2_MetadatosProceAlma.ActualizaProductos" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit16_Sockets.*" />
+          <option name="PATTERN" value="unit19_JakartaEE_2_MetadatosProceAlma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServidorChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit17_EjercicioChatSockets.ServidorChat" />
+    <configuration name="AplicacionUniversalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit19_JakartaEE_3_AplicacionUniveral.AplicacionUniversalMain" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit17_EjercicioChatSockets.*" />
+          <option name="PATTERN" value="unit19_JakartaEE_3_AplicacionUniveral.interfazGrafica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unit17_EjercicioChatSockets.ClienteChat (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit17_EjercicioChatSockets.ClienteChat" />
+    <configuration name="ConsultaProductos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit19_JakartaEE_2_MetadatosProceAlma.ConsultaProductos" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit17_EjercicioChatSockets.*" />
+          <option name="PATTERN" value="unit19_JakartaEE_2_MetadatosProceAlma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unit17_EjercicioChatSockets.ClienteChat (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit17_EjercicioChatSockets.ClienteChat" />
+    <configuration name="InsertaClientesPedidos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit19_JakartaEE_2_MetadatosProceAlma.transacciones.InsertaClientesPedidos" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit17_EjercicioChatSockets.*" />
+          <option name="PATTERN" value="unit19_JakartaEE_2_MetadatosProceAlma.transacciones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unit17_EjercicioChatSockets.ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit17_EjercicioChatSockets.ClienteChat" />
+    <configuration name="MostrarMetadatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit19_JakartaEE_2_MetadatosProceAlma.Metadatos.MostrarMetadatos" />
       <module name="JavaTutorizadoPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit17_EjercicioChatSockets.*" />
+          <option name="PATTERN" value="unit19_JakartaEE_2_MetadatosProceAlma.Metadatos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.unit17_EjercicioChatSockets.ClienteChat (2)" />
-        <item itemvalue="Application.ServidorChat" />
-        <item itemvalue="Application.unit17_EjercicioChatSockets.ClienteChat" />
-        <item itemvalue="Application.unit17_EjercicioChatSockets.ClienteChat (1)" />
-        <item itemvalue="Application.ServidorChat (1)" />
+        <item itemvalue="Application.AplicacionUniversalMain" />
+        <item itemvalue="Application.MostrarMetadatos" />
+        <item itemvalue="Application.InsertaClientesPedidos" />
+        <item itemvalue="Application.ActualizaProductos" />
+        <item itemvalue="Application.ConsultaProductos" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +314,41 @@
       <workItem from="1744066400611" duration="6355000" />
       <workItem from="1744074178489" duration="46000" />
       <workItem from="1744074272256" duration="393000" />
-      <workItem from="1744114288511" duration="3240000" />
+      <workItem from="1744114288511" duration="3830000" />
+      <workItem from="1744214353896" duration="4689000" />
+      <workItem from="1744229926882" duration="83000" />
+      <workItem from="1745627124421" duration="1722000" />
+      <workItem from="1745888296197" duration="3202000" />
+      <workItem from="1745977792775" duration="3051000" />
+      <workItem from="1746060449433" duration="1022000" />
+      <workItem from="1746061503978" duration="6697000" />
+      <workItem from="1746123154391" duration="1667000" />
+      <workItem from="1746135285806" duration="4136000" />
+      <workItem from="1746234329176" duration="2241000" />
+      <workItem from="1747093918544" duration="5581000" />
+      <workItem from="1747192006534" duration="1765000" />
+      <workItem from="1747352567621" duration="709000" />
+      <workItem from="1747424430037" duration="12393000" />
+      <workItem from="1747686903833" duration="611000" />
+      <workItem from="1747701035125" duration="2525000" />
+      <workItem from="1747783444559" duration="1197000" />
+      <workItem from="1747792959472" duration="948000" />
+      <workItem from="1747871602340" duration="3023000" />
+      <workItem from="1748262668701" duration="5000" />
+      <workItem from="1749513885570" duration="751000" />
+      <workItem from="1749568355348" duration="968000" />
+      <workItem from="1749607058605" duration="1127000" />
+      <workItem from="1749685444472" duration="1505000" />
+      <workItem from="1749773023207" duration="4341000" />
+      <workItem from="1750385843048" duration="2518000" />
+      <workItem from="1750870143695" duration="3892000" />
+      <workItem from="1752260206726" duration="14957000" />
+      <workItem from="1752448884089" duration="1917000" />
+      <workItem from="1752510361122" duration="4000" />
+      <workItem from="1752527882459" duration="12000" />
+      <workItem from="1752547333668" duration="1339000" />
+      <workItem from="1752719492902" duration="746000" />
+      <workItem from="1752792694930" duration="4832000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
       <option name="closed" value="true" />
@@ -357,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744071510880</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="✨ Mejorando el chat">
+      <option name="closed" value="true" />
+      <created>1744123495487</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744123495487</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +464,8 @@
     <MESSAGE value="✨ Uso de Maps" />
     <MESSAGE value="✨ Sockets&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Servidor: Recibe mensajes en el puerto 9999 y los muestra en un área de texto.&#10;- Comunicación: Uso de `Socket` y `ServerSocket` para enviar y recibir datos." />
     <MESSAGE value="✨ Creación clase CLienteChat&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Creació de clase para empaquetar el envio del mensaje, la ip y el nick del cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ Creación clase CLienteChat&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Creació de clase para empaquetar el envio del mensaje, la ip y el nick del cliente" />
+    <MESSAGE value="✨ Mejorando el chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ Mejorando el chat" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -6,21 +6,23 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 
 public class ServidorChat {
 
 
     public static void main(String[] args) {
 
-        MarcoServidorChat mimarco=new MarcoServidorChat();
+        MarcoServidorChat mimarco = new MarcoServidorChat();
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
 
 
-class MarcoServidorChat extends JFrame implements Runnable{
+class MarcoServidorChat extends JFrame implements Runnable {
 
     private JTextArea areatexto;
 
@@ -37,23 +39,43 @@ class MarcoServidorChat extends JFrame implements Runnable{
             String ip;
             String mensaje;
 
+            ArrayList<String> listaIpConectados = new ArrayList<>();
+
             LaminaClienteChat.EnvioPaqueteDatos paqueteRecibido;
 
             while (true) {
 
                 //Acepta todas las conexiones que viajan por el socket
                 Socket miSocket = miServidor.accept();
+
                 ObjectInputStream flujoDatosEntrada = new ObjectInputStream(miSocket.getInputStream());
                 paqueteRecibido = (LaminaClienteChat.EnvioPaqueteDatos) flujoDatosEntrada.readObject();
                 nick = paqueteRecibido.getNick();
                 ip = paqueteRecibido.getIp();
                 mensaje = paqueteRecibido.getTextoCliente();
-                areatexto.append("\n" + "nick" + " : " +  nick + " Mensaje: "+  mensaje + "IP: " + ip);
-                Socket reenvioDestinatario = new Socket(ip, 9090);
-                ObjectOutputStream paqueteReenvio = new ObjectOutputStream(reenvioDestinatario.getOutputStream());
-                paqueteReenvio.writeObject(paqueteRecibido);
-                reenvioDestinatario.close();
-                miSocket.close();
+                areatexto.append("\n" + "nick" + " : " + nick + " Mensaje: " + mensaje + "IP: " + ip);
+                if (!mensaje.equals(" online")) {
+
+                    Socket reenvioDestinatario = new Socket(ip, 9090);
+                    ObjectOutputStream paqueteReenvio = new ObjectOutputStream(reenvioDestinatario.getOutputStream());
+                    paqueteReenvio.writeObject(paqueteRecibido);
+                    reenvioDestinatario.close();
+                    miSocket.close();
+                } else {
+                    InetAddress dirClientes = miSocket.getInetAddress();
+                    String ipClientesConectados = dirClientes.getHostAddress();
+                    System.out.println("Dirección remota conectada: " + ipClientesConectados);
+                    listaIpConectados.add(ipClientesConectados);
+                    paqueteRecibido.setIPs(listaIpConectados);
+                    for (String laIp : listaIpConectados) {
+                        System.out.println("ArrayList: " + laIp);
+                        Socket reenvioDestinatario = new Socket(ip, 9090);
+                        ObjectOutputStream paqueteReenvio = new ObjectOutputStream(reenvioDestinatario.getOutputStream());
+                        paqueteReenvio.writeObject(paqueteRecibido);
+                        reenvioDestinatario.close();
+                        miSocket.close();
+                    }
+                }
             }
 
         } catch (IOException | ClassNotFoundException e) {
@@ -93,11 +115,11 @@ class MarcoServidorChat extends JFrame implements Runnable{
      */
     public MarcoServidorChat() {
 
-        setBounds(1200,300,280,350);
-        JPanel milamina= new JPanel();
+        setBounds(1200, 300, 280, 350);
+        JPanel milamina = new JPanel();
         milamina.setLayout(new BorderLayout());
-        areatexto=new JTextArea();
-        milamina.add(areatexto,BorderLayout.CENTER);
+        areatexto = new JTextArea();
+        milamina.add(areatexto, BorderLayout.CENTER);
         add(milamina);
         setVisible(true);
 
