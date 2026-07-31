@@ -9,20 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="✨ Practica de los temas de las unidades 17, 18 y 19 del curso de pildoras informaticas tutorizados.&#10;- chat con Sockets&#10;- JDBC&#10;- MVC&#10;- Procedimientos almacenados&#10;- Ejercicio aplicación universal, conexión con BBDD">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/java/org/education/operacionesAritmeticas/OperacionesMatematicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/EjemplosCodigos.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/ObjetosPredefinidos.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/RecibeDatos.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/Registro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaTutorizadoPI_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaTutorizadoPI_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c9ced411-65e7-4d7d-96e8-cba0dbb8777f" name="Changes" comment="✨ Practica de los temas de la unidades 17, 19 del curso de pildoras informaticas tutorizados.&#10;- JSP&#10;- Ejercicio aplicación sencil acon JSP">
+      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/capturaDatos.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/capturaLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/formulario_registro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit19_JakartaEE_3_JSP/src/main/webapp/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit18_JDBC/ConectaGestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit18_JDBC/ConectaGestion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +109,10 @@
     &quot;JavaScript Debug.Registro.html (1).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.Registro.html (2).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.Registro.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.formulario_registro.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.formulario_registro.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.login.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.login.html.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Unit19_JakartaEE_3_JSP [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -128,12 +125,15 @@
     &quot;Tomcat Server.RecibeDatos.jsp (1).executor&quot;: &quot;Run&quot;,
     &quot;Tomcat Server.RecibeDatos.jsp.executor&quot;: &quot;Run&quot;,
     &quot;Tomcat Server.Tomcat JSP.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat Server.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.capturaLogin.jsp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.capturaLogin.jsp.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SaulHernandoEcheverr/Documents/Proyectos/JavaTutorizadoPildorasInformaticas&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SaulHernandoEcheverr/Documents/Proyectos/JavaTutorizadoPildorasInformaticas/src/Unit19_JakartaEE_3_JSP/src/main/webapp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -159,10 +159,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SaulHernandoEcheverr\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\Unit19_JakartaEE_3_JSP\src\main\webapp" />
+      <recent name="C:\Users\SaulHernandoEcheverr\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\Unit19_JakartaEE_3_JSP\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\SaulHernandoEcheverr\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\Unit19_JakartaEE_3_JSP\src\main\resources" />
       <recent name="C:\Users\SaulHernandoEcheverr\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\Unit19_JakartaEE_3_JSP\src\main\webapp\html" />
       <recent name="C:\Users\SaulHernandoEcheverr\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src" />
-      <recent name="C:\Users\SaulHernandoEcheverr\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit19_JakartaEE_3_JSP\unit19_JakartaEE_3_JSP\src\main\webapp" />
-      <recent name="C:\Users\SaulHernandoEcheverr\Documents\Proyectos\JavaTutorizadoPildorasInformaticas\src\unit19_JakartaEE_3_JSP\unit19_JakartaEE_3_JSP\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="unit19_JakartaEE_MetadatosProceAlma" />
@@ -177,103 +177,15 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aplicacion_Consulta">
-    <configuration name="Aplicacion_Consulta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit18_JDBC.ejercicioBDconInterfaz.Aplicacion_Consulta" />
-      <module name="JavaTutorizadoPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unit18_JDBC.ejercicioBDconInterfaz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Registro.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaTutorizadoPildorasInformaticas/Unit19_JakartaEE_3_JSP/src/main/webapp/Registro.html" useBuiltInWebServerPort="true">
+  <component name="RunManager">
+    <configuration name="formulario_registro.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Unit19_JakartaEE_3_JSP_war_exploded/formulario_registro.html">
       <method v="2" />
     </configuration>
-    <configuration name="Registro.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Unit19_JakartaEE_3_JSP_war_exploded/Registro.html">
+    <configuration name="login.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Unit19_JakartaEE_3_JSP/login.html">
       <method v="2" />
     </configuration>
-    <configuration name="RecibeDatos.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat JSP" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/RecibeDatos.jsp" />
-      <deployment>
-        <artifact name="Unit19_JakartaEE_3_JSP:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Unit19_JakartaEE_3_JSP_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="04178aab-d6f8-413f-a9ef-5ef18341280c" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Unit19_JakartaEE_3_JSP:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="RecibeDatos.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat JSP" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/RecibeDatos.jsp" />
-      <deployment>
-        <artifact name="Unit19_JakartaEE_3_JSP:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Unit19_JakartaEE_3_JSP_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="e5ff0ad0-910a-424e-b373-28b845512485" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Unit19_JakartaEE_3_JSP:war exploded" />
-        </option>
-      </method>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Unit19_JakartaEE_3_JSP_war_exploded/login.html">
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat JSP" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat JSP" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -395,23 +307,204 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Aplicacion_Consulta" />
-      <item itemvalue="JavaScript Debug.Registro.html (1)" />
-      <item itemvalue="JavaScript Debug.Registro.html (2)" />
-      <item itemvalue="Tomcat Server.Tomcat JSP" />
-      <item itemvalue="Tomcat Server.RecibeDatos.jsp (1)" />
-      <item itemvalue="Tomcat Server.RecibeDatos.jsp" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Aplicacion_Consulta" />
-        <item itemvalue="JavaScript Debug.Registro.html (2)" />
-        <item itemvalue="Tomcat Server.RecibeDatos.jsp" />
-        <item itemvalue="JavaScript Debug.Registro.html (1)" />
-        <item itemvalue="Tomcat Server.RecibeDatos.jsp (1)" />
-      </list>
-    </recent_temporary>
+    <configuration name="Tomcat Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Unit19_JakartaEE_3_JSP:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Unit19_JakartaEE_3_JSP" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="fdb38fd5-25e0-42dc-9aa7-07be541caf2e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59556" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="59557" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Unit19_JakartaEE_3_JSP:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="capturaLogin.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 10.1.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/capturaLogin.jsp" />
+      <deployment>
+        <artifact name="Unit19_JakartaEE_3_JSP:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Unit19_JakartaEE_3_JSP_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cf653fd2-6180-4f28-8cd3-28d5d9f4322a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Unit19_JakartaEE_3_JSP:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="capturaLogin.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 10.1.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/capturaLogin.jsp" />
+      <deployment>
+        <artifact name="Unit19_JakartaEE_3_JSP:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Unit19_JakartaEE_3_JSP_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dfc9e4a5-686f-425f-b095-7b53f473149c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Unit19_JakartaEE_3_JSP:war exploded" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -555,6 +648,15 @@
       <workItem from="1755898053511" duration="131000" />
       <workItem from="1757126073837" duration="481000" />
       <workItem from="1757631402249" duration="10000" />
+      <workItem from="1757951184592" duration="1223000" />
+      <workItem from="1759454471879" duration="4258000" />
+      <workItem from="1764350673079" duration="975000" />
+      <workItem from="1765593008797" duration="6504000" />
+      <workItem from="1766531824815" duration="1058000" />
+      <workItem from="1767048678964" duration="45000" />
+      <workItem from="1767049680864" duration="65000" />
+      <workItem from="1770510940195" duration="5112000" />
+      <workItem from="1770603212231" duration="3515000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: Ejercicio 7. Condicional If">
       <option name="closed" value="true" />
@@ -660,7 +762,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752798006879</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="✨ Practica de los temas de la unidades 17, 19 del curso de pildoras informaticas tutorizados.&#10;- JSP&#10;- Ejercicio aplicación sencil acon JSP">
+      <option name="closed" value="true" />
+      <created>1757951365281</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1757951365281</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +790,8 @@
     <MESSAGE value="✨ Creación clase CLienteChat&#10;- Cliente: Interfaz gráfica para enviar mensajes al servidor mediante sockets.&#10;- Creació de clase para empaquetar el envio del mensaje, la ip y el nick del cliente" />
     <MESSAGE value="✨ Mejorando el chat" />
     <MESSAGE value="✨ Practica de los temas de las unidades 17, 18 y 19 del curso de pildoras informaticas tutorizados.&#10;- chat con Sockets&#10;- JDBC&#10;- MVC&#10;- Procedimientos almacenados&#10;- Ejercicio aplicación universal, conexión con BBDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ Practica de los temas de las unidades 17, 18 y 19 del curso de pildoras informaticas tutorizados.&#10;- chat con Sockets&#10;- JDBC&#10;- MVC&#10;- Procedimientos almacenados&#10;- Ejercicio aplicación universal, conexión con BBDD" />
+    <MESSAGE value="✨ Practica de los temas de la unidades 17, 19 del curso de pildoras informaticas tutorizados.&#10;- JSP&#10;- Ejercicio aplicación sencil acon JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ Practica de los temas de la unidades 17, 19 del curso de pildoras informaticas tutorizados.&#10;- JSP&#10;- Ejercicio aplicación sencil acon JSP" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
