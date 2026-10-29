@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Unit19_JakartaEE_3_JSP" />
+        <module name="Unit19_JakartaEE_4_JSP" />
       </profile>
     </annotationProcessing>
   </component>
