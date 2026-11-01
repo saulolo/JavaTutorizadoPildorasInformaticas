@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaTutorizadoPildorasInformaticas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaTutorizadoPildorasInformaticas_jar</output-path>
+    <root id="archive" name="JavaTutorizadoPildorasInformaticas.jar">
+      <element id="module-output" name="Unit19_JakartaEE_4_JSP" />
+      <element id="module-output" name="JavaTutorizadoPI" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Driver Postgresql/postgresql-42.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/el/jakarta.el-api/6.0.0/jakarta.el-api-6.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.55.1/checker-qual-3.55.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.7.14/postgresql-42.7.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jcalendar-1.4/lib/jcalendar-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
