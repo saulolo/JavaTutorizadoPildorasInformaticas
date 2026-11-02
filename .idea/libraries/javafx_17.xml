@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javafx-17">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../../../../Workspaces/javafx-sdk-17.0.21/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../../../../Workspaces/javafx-sdk-17.0.21/lib" recursive="false" />
+  </library>
+</component>

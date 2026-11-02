@@ -11,5 +11,7 @@
     <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:6.0.0" level="project" />
     <orderEntry type="library" name="jcalendar-1.4" level="project" />
     <orderEntry type="library" name="beanImagenes" level="project" />
+    <orderEntry type="library" name="flatlaf-3.5.1" level="project" />
+    <orderEntry type="library" name="javafx-17" level="project" />
   </component>
 </module>

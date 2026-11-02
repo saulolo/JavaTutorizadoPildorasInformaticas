@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Unit20_SwingAvanzado.jList.JListExampleMarcoGUI.JListExampleMarcoGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="2564f" binding="laminaLista" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="171e3" binding="barraScroll">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="84dcb" class="javax.swing.JList" binding="listaMeses">
+                <constraints/>
+                <properties>
+                  <model>
+                    <item value="Enero"/>
+                    <item value="Febrero"/>
+                    <item value="Marzo"/>
+                    <item value="Abril"/>
+                    <item value="Mayo"/>
+                    <item value="Junio"/>
+                    <item value="Julio"/>
+                    <item value="Agosto"/>
+                    <item value="Septiembre"/>
+                    <item value="Octubre"/>
+                    <item value="Noviembre"/>
+                    <item value="Diciembre"/>
+                  </model>
+                  <visibleRowCount value="4"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="2c1c3" binding="laminaLabel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ee5a" class="javax.swing.JLabel" binding="rotuloMeses">
+            <constraints border-constraint="South"/>
+            <properties>
+              <autoscrolls value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Mes seleccionado:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
